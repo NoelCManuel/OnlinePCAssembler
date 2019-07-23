@@ -1,0 +1,34 @@
+﻿.topbar 
+{
+    background-color: black;
+    height: 15px;
+}
+.logo-section
+{
+    background-color: #efefef;
+    height: 50px;
+}
+.nav-btn a {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 70px;   
+}
+.shopby{
+    padding-top:20px;
+}
+.nav-btn a:hover 
+{
+    opacity:0.5;
+}
+.parts {
+    font-size: 12px;
+    border: 1px solid #efefef;
+}
+.parts img{
+    width:100px;
+    height:80px;
+}
+.test
+{
+    border:1px solid blue;   
+}
