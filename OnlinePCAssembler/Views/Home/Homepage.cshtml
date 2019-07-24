@@ -13,75 +13,133 @@
 </head>
 
 <body>
-    <div class="container-fluid topbar"></div>
-    <div class="container-fluid logo-section">
+    
+    <div class="navbar navbar-fixed-top hea" role="navigation">
+        <div class="container-fluid box"></div>
         <div class="container">
             <a href="#" class="navbar-brand">Company X</a>
 
-            <ul class="nav navbar-nav navbar-right nav-btn">
-                <li><a href="#">Register</a></li>
-                <li><a href="#">Log In</a></li>
+            <ul class="nav navbar-nav navbar-right nab">
+                <li>@Html.ActionLink("Register", "Login")</li>
+                <li>@Html.ActionLink("Log In", "Login")</li>
+                
             </ul>
+        </div>
+    </div>
+    
+    <div class="container-fluid topbar">
+        <div class="container text-center">
+            <div class="row">
+
+                <div class="col-sm-12 text-left">
+                    <h5 class="boo">SHOP BY PARTS</h5>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/mb.jpg" />
+                    <p>Motherboard</p>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/ram.jpg" />
+                    <p>Memory</p>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/gpu.jpg" />
+                    <p>Graphics</p>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/hd.jpg" />
+                    <p>Hard disk</p>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/pro.jpg" />
+                    <p>Processor</p>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/fan.png" />
+                    <p>Case fan</p>
+                </div>
+
+
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/cd.jpg" />
+                    <p>Optical drive</p>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/rou.jpg" />
+                    <p>Router</p>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/smps.jpg" />
+                    <p>Power</p>
+                </div>
+                <div class="col-sm-2 parts">
+                    <img src="~/images/parts/sound.jpg" />
+                    <p>Sound card</p>
+                </div>
+                
+            </div>
         </div>
         <div class="container text-center">
             <div class="row">
 
                 <div class="col-sm-12 text-left shopby">
-                    <h4>SHOP BY PARTS</h4>
+                    <h5 class="marh5">SHOP BY COMPANY</h5>
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/Dell.jpg" />         
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/ibm.png" />
+                   
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/wats.jpg" />
+                    
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/lg.png" />
+                    
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/LES.jpg" />
+                   
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/translogistics.jpg" />
+                    
                 </div>
 
-                
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/translogistics.jpg" />
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/images.png" />
+                    
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/MARK.png" />
+
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/Electrical.jpg" />
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/GEN.jpg" />
                 </div>
-                <div class="col-sm-2 parts">
-                    <img src="~/images/parts/mb.jpg" />
-                    <p>Motherboard</p>
+                <div class="col-sm-2 comp">
+                    <img src="~/images/parts/Electrical.jpg" />
                 </div>
             </div>
         </div>
 
+
+    </div>
+
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container-fluid">
+            <p>PC Assembler</p>
+        </div>
     </div>
     <script src="~/Content/jquery.js"></script>
     <script src="~/Content/bootstrap.min.js"></script>

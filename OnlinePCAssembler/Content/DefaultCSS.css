@@ -1,34 +1,53 @@
-﻿.topbar 
+﻿.box{
+    height:10px;
+    background-color:black
+}
+.topbar 
 {
-    background-color: black;
-    height: 15px;
+    margin-top:70px;
+    
+}
+.hea{
+    background-color:#efefef;
+    border:none;
+    height:60px;
+
 }
 .logo-section
 {
     background-color: #efefef;
     height: 50px;
 }
-.nav-btn a {
-    color: red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 70px;   
+.comp img {
+    width: 130px;
+    height: 100px;
+    padding:10px;
 }
-.shopby{
-    padding-top:20px;
+.comp {
+    border: 1px solid #efefef;
 }
-.nav-btn a:hover 
-{
-    opacity:0.5;
-}
+
 .parts {
     font-size: 12px;
     border: 1px solid #efefef;
 }
 .parts img{
-    width:100px;
+    width:95px;
     height:80px;
 }
 .test
 {
     border:1px solid blue;   
+}
+.marh5 {
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.nab a{
+    color:red;
+}
+.boo {
+    font-weight: bold;
+    font-size: 12px;
 }

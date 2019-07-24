@@ -136,16 +136,29 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\parts\Electrical.jpg" />
+    <Content Include="images\parts\GEN.jpg" />
+    <Content Include="images\parts\MARK.png" />
+    <Content Include="images\parts\mini.jpg" />
     <Content Include="images\parts\cd.jpg" />
+    <Content Include="images\parts\Dell.jpg" />
     <Content Include="images\parts\fan.png" />
     <Content Include="images\parts\gpu.jpg" />
     <Content Include="images\parts\hd.jpg" />
+    <Content Include="images\parts\hp.png" />
+    <Content Include="images\parts\ibm.png" />
+    <Content Include="images\parts\images.png" />
+    <Content Include="images\parts\LES.jpg" />
+    <Content Include="images\parts\lg.png" />
     <Content Include="images\parts\mb.jpg" />
     <Content Include="images\parts\pro.jpg" />
     <Content Include="images\parts\ram.jpg" />
     <Content Include="images\parts\rou.jpg" />
     <Content Include="images\parts\smps.jpg" />
     <Content Include="images\parts\sound.jpg" />
+    <Content Include="images\parts\translogistics.jpg" />
+    <Content Include="images\parts\wats.jpg" />
+    <Content Include="images\parts\ZEN.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -174,6 +187,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Homepage.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
